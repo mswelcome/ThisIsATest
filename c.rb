@@ -1,14 +1,14 @@
 #Counting to Hundred
 1.upto(100) do |counter|
-	 if (counter %3  == 0)
+	 if (counter %3 && counter %5 == 0)
+	 	puts "MinedMinds"
+	 elsif (counter %5 == 0)
+	 	puts "Minds"
+	 elsif (counter %3 == 0)
 	 	puts "Mined"
 	 elsif counter == 5
 	 	puts "Minds"
-	 elsif (counter %5 == 0)
-	 	puts "Minds"
-	 elsif counter %15 == 0
-	 	puts "MinedMinds"
-	else
+	 else
 	puts counter 
 	end
 end

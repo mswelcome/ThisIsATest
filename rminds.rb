@@ -1,8 +1,8 @@
 #Counting to 100 While replacing certain values with Mind or MinedMinds. Homework for Monday 26-June-2017. Completed!!!
 1.upto(100) do |x|
-	if (x %3 == 0)
-	 	puts "Mind"
-	if (x == 3)
+	if (x %2 == 0)
+	 	puts "even"
+	if (x ==3 )
 		puts "Mind"
 	elsif (x == 5)
 		puts "Mind"

@@ -1,4 +1,4 @@
-#Exercise 1
+#Exercise 1 - 5
 1.upto(100) do |x|
 	if (x %15 == 0)
 		puts "MinedMinds"

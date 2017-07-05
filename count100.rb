@@ -1,11 +1,7 @@
-#Counting to Hundred
-#1.upto(100) do |counter|
-#	puts counter
-#end
-def even(x)
-	(1..x).each do |i|
-		if i % 2 == 0
-			puts i
-		end
+#Counting to Hundred replacing the Even numbers with the word even
+1.upto(100) do |counter|
+	if (counter %2 == 0)
+	puts "Even"
+	else puts "This is a test #{counter}"
 	end
 end
