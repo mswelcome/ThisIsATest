@@ -2,7 +2,9 @@
 def mmkca
 	ammk = []
 	1.upto(100) do |n|
-		if (n %5 == 0)
+		if (n %5 == 0)  && (n %3 == 0)
+			ammk << "MinedMinds"
+		elsif (n %5 == 0)
 			ammk << "Minds"
 		elsif (n %3 == 0)
 			ammk << "Mined"

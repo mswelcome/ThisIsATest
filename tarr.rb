@@ -19,6 +19,15 @@ class TestArr < Minitest::Test
 		assert_equal("Minds", mmkca[4])
 	end
 
+	def test_pos14
+		assert_equal("MinedMinds", mmkca[14])
+	end
+
+	def test_26
+		assert_equal("Mined", mmkca[26])
+	end
+
+
 
 
 
