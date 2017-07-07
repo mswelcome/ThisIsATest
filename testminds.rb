@@ -35,4 +35,12 @@ class TestMinds < Minitest::Test
 		assert_equal("MinedMinds", mmk(45))
 	end
 
+	def test_63
+		assert_equal(67, mmk(67))
+	end
+
+	def test_95
+		assert_equal("Minds", mmk(95))
+	end
+
 end
