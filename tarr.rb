@@ -27,10 +27,28 @@ class TestArr < Minitest::Test
 		assert_equal("Mined", mmkca[26])
 	end
 
+	def test_34
+		assert_equal("Minds", mmkca[34])
+	end
 
+	def test_44
+		assert_equal("MinedMinds", mmkca[44])
+	end
 
+	def test_62
+		assert_equal("Mined", mmkca[62])
+	end
 
+	def test_71
+		assert_equal("Mined", mmkca[71])
+	end
 
+	def test_89
+		assert_equal("MinedMinds", mmkca[89])
+	end
 
+	def test_99
+		assert_equal("Minds", mmkca[99])
+	end
 
 end
